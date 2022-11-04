@@ -365,7 +365,11 @@ h4 {
 
 
 /* Media Queries  */
-
+@media (max-width:2000px){
+	.products .dropdown .btn{
+		display: none;
+	}
+}
 
 
 @media (max-width: 1199.98px) { 
@@ -419,6 +423,19 @@ h4 {
 		.products-slider .caption-2 {
 			margin-top: 20px;
 		}
+		.products .dropdown {
+			margin-top: -65px;
+		}
+		
+		.products .dropdown .btn{
+			display: block;
+			margin-left: auto;
+			font-size: 20px;
+		}
+		.products .nav .nav-item {
+			display: none;
+		}
+		
 		
   }
   
