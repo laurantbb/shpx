@@ -133,6 +133,10 @@ h4 {
 	font-size: 500;
 }
 
+.main-header .container-buttons{
+	margin-left: auto;
+	display: flex;
+}
 /* Banner CSS */
 
 .main-banner {
@@ -399,6 +403,12 @@ h4 {
 	}
 	.bg-block{
 		display: none;
+	}
+	.main-header .container-buttons{
+		display: block;
+	}
+	 .main-header .container-buttons .form-control{
+		 margin-left: 12px;
 	}
   }
   
