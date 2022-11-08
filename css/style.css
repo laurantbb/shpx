@@ -366,9 +366,9 @@ h4 {
 
 /* Media Queries  */
 @media (max-width:2000px){
-	.products .dropdown .btn{
+	 .products .dropdown .btn{
 		display: none;
-	}
+	} 
 }
 
 
@@ -427,14 +427,22 @@ h4 {
 			margin-top: -65px;
 		}
 		
-		.products .dropdown .btn{
+		 .products .dropdown .btn{
 			display: block;
 			margin-left: auto;
 			font-size: 20px;
 		}
-		.products .nav .nav-item {
-			display: none;
+
+		.products .dropdown .dropdown-menu .nav-item{
+			display: block;
 		}
+		.products .dropdown .dropdown-menu .nav-link{
+			font-size: 20px;
+		}
+
+		 .products .nav .nav-item {
+			display: none;
+		}  
 		
 		
   }
